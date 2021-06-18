@@ -15,3 +15,17 @@ const tempList = [1, 2, 3, 4, 5];
 tempList.forEach((num) => {
     console.log(num);
 });
+
+const friends = ["nico", "hee", "zion", "minsoo"];
+
+for (let i = 0; i < friends.length; i++) {
+    console.log(`heelo ${friends[i]} times`);
+}
+
+const addHeart = (c, i, a) => console.log(c, i, a);
+
+friends.forEach(addHeart);
+
+for (const friend of friends) {
+    console.log(friend);
+}
